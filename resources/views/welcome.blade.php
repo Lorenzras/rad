@@ -279,7 +279,7 @@
             <div class="swiper-slide" ><button class="button">挨拶</button></div>
             <div class="swiper-slide" ><button class="button">開発とは</button></div>
             <div class="swiper-slide" ><button class="button">WEB開発</button></div>
-            <div class="swiper-slide" ><button class="button">裏方</button></div>
+            <div class="swiper-slide" ><button class="button">アプリ</button></div>
             <div class="swiper-slide" ><button class="button">イベント</button></div>
             <div class="swiper-slide" ><button class="button">スタフ</button></div>
             <div class="swiper-slide" ><button class="button">採用情報</button></div>
@@ -360,13 +360,13 @@
                 $data=collect([
             (object)[
                 'title' => 'じゃ、WEB開発が出来る？',
-                'body' => '経験としては、バックエンドです。デザインのセンスはありませんので、フロントエンドのデザインが出来ません。ｗ　フロントエンドのプログラミングもあまり経験はありませんが、必要な知識がわかります。やればやるほど腕もあげられると思います。<span class="font-weight-bold text-primary">ワイアフレーム</span>があればより効率的に開発が出来ます。',
+                'body' => '経験としては、バックエンドです。デザインのセンスはありませんので、フロントエンドのデザインが出来ません。ｗ　フロントエンドのプログラミングもあまり経験はありませんが、必要な知識がわかります。やればやるほど腕もあげられると思います。そして<span class="font-weight-bold text-primary">ワイアフレーム</span>があればより効率的に開発が出来ます。',
                 'img' => "img/dekiru.png"
             ],
             (object)[
-                'title' => '「ワイアフレーム」って何？',
-                'body' => 'サーバーサイド（Webサーバー側）やデータベースのシステムなど、ユーザーの目に見えない部分のことです。ユーザーが入力した内容などのデータ処理やデータベースへの保存、検索結果の出力といったことを行います。',
-                'img' => "img/wireframe.png"
+                'title' => '「ワイアーフレーム」って何？',
+                'body' => 'ワイヤーフレームとは、webページのレイアウトを定める設計図のことです。詳細なデザインの制作に入る前に、あらかじめ情報ブロックの配置を決めるために制作されます。フレームがあることによって、クライアントも制作者たちも、全員が完成イメージを共有できるようになります。なのでワイヤーフレームは、ワークフローをスムーズに進める役割を担っています。これがまさに住宅の間取り図と一緒ですね。',
+                'img' => "img/plan.gif"
             ]
             ]);
 
