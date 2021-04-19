@@ -320,6 +320,7 @@
     </nav>
 </div>
 
+
   <!-- Initialize Swiper -->
     <script>
         var galleryThumbs = new Swiper('.gallery-thumbs', {
