@@ -218,6 +218,10 @@
             padding: 0;
         }
 
+        .button {
+            padding: 0;
+        }
+
 
     }
 
