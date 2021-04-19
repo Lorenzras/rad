@@ -27,7 +27,7 @@
 
     body {
       background:#fdf0f5 ;
-      font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+      font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 1rem;
       color: #000;
       margin: 0;
@@ -202,6 +202,18 @@
         opacity: 0;
     }
 
+    .desc {
+        line-height: 1.14286;
+        font-weight: 600;
+        letter-spacing: .009em;
+        font-size: 19px;
+        color: #1d1d1f;
+        direction: ltr;
+        text-align: left;
+    }
+
+
+
     @media screen and (max-width: 600px) {
         .gallery-thumbs .swiper-slide-thumb-active .button,  .button:hover {
             font-size: 12px;
@@ -264,39 +276,115 @@
 
     <div class=" swiper-container gallery-thumbs">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" ><button class="button">ご挨拶</button></div>
-            <div class="swiper-slide" ><button class="button">店舗</button></div>
-            <div class="swiper-slide" ><button class="button">FAQ</button></div>
-            <div class="swiper-slide" ><button class="button">お知らせ</button></div>
+            <div class="swiper-slide" ><button class="button">挨拶</button></div>
+            <div class="swiper-slide" ><button class="button">開発とは</button></div>
+            <div class="swiper-slide" ><button class="button">WEB開発</button></div>
+            <div class="swiper-slide" ><button class="button">裏方</button></div>
             <div class="swiper-slide" ><button class="button">イベント</button></div>
             <div class="swiper-slide" ><button class="button">スタフ</button></div>
             <div class="swiper-slide" ><button class="button">採用情報</button></div>
             <div class="swiper-slide" ><button class="button">会社情報</button></div>
             <div class="swiper-slide" ><button class="button">売買情報</button></div>
-            <div class="swiper-slide" ><button class="button">お問合せ</button></div>
+            <div class="swiper-slide" ><button class="button">店舗</button></div>
         </div>
     </div>
 
 
 </nav>
+
 <div class="swiper-container gallery-top ">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
-            @include('slide1')
+            <?php
+                $data=collect([
+            (object)[
+                'title' => 'こんにちは！',
+                'body' => 'サイトのデザインはラジコが運営しているアプリのものですが、プログラムコードは全て夢のおてつだい株式会社のものです。',
+                'img' => "img/rajiko.jpg"
+            ],
+            (object)[
+                'title' => '待って、下のアイコンは押しても反応しないけど…',
+                'body' => '申し訳ございません。自社でどんなことが作れるかがこのサイトの目的です。もちろんデザインや中身も変えられます。',
+                'img' => "img/arumin.jpg"
+            ],
+            (object)[
+                'title' => '誰が書いたの？',
+                'body' => ' パートである<span class="font-weight-bold text-primary"> ラス </span> と申します。日本に来て2年目です。高橋さんと早川さんのおかげで、RPAだけじゃなく開発もチャレンジすることが出来ました。日本語があまり話せないので、簡単な日本語か英語で、よろしくお願い致します。',
+                'img' => "img/frontend.jpeg"
+            ]]);
+
+            ?>
+            @include('layout',['data'])
+
         </div>
         <div class="swiper-slide ">
-            @include('slide2')
+            <?php
+                $data=collect([
+            (object)[
+                'title' => '「開発」とは？',
+                'body' => 'WebサイトやWebアプリケーションの開発は、仕事の内容によって「フロントエンド」と「バックエンド」に分類されます。',
+                'img' => "img/whatisdev.jpg"
+            ],
+            (object)[
+                'title' => '「フロントエンド」と「バックエンド」とは？',
+                'body' => '単純にいうと「フロントエンド」は外見で「バックエンド」は裏方です。',
+                'img' => "img/restaurant.png"
+            ],
+            (object)[
+                'title' => '「フロントエンド」って外見？',
+                'body' => 'そうです。レストランだと、メニューと一緒です。注文したいものは簡単に見つけるために、綺麗に整理したり、画像を載せたりしますね。画像の見た目は美味しくなかったり、外国メニューだと画像がなかったりすると、注文が難しくなりますね。',
+                'img' => "img/menu.png"
+            ],
+            (object)[
+                'title' => '「フロントエンド」って裏方？',
+                'body' => ' レストランだと、キチンはお客様がほとんど見えないところで、環境や言葉が異なります。食べ物が美味しくなかったり、遅かったりするとお客様はどう思いますか。',
+                'img' => "img/kitchen.png"
+            ],
+            (object)[
+                'title' => '開発で「フロントエンド」とは？',
+                'body' => ' WebサービスやWebアプリケーションで直接ユーザーの目に触れる部分のことです。WebサイトやWebアプリケーションなどでユーザーが文字を入力したり、ボタンをクリックしたりする部分です。',
+                'img' => "img/front-explain.png"
+            ],
+            (object)[
+                'title' => '開発で「バックエンド」とは？',
+                'body' => 'サーバーサイド（Webサーバー側）やデータベースのシステムなど、ユーザーの目に見えない部分のことです。ユーザーが入力した内容などのデータ処理やデータベースへの保存、検索結果の出力といったことを行います。フロントエンドより、重要ですね。',
+                'img' => "img/back-explain.png"
+            ]
+            ]);
+
+            ?>
+            @include('layout',['data'])
         </div>
         <div class="swiper-slide">
-            @include('slide3')
+            <?php
+                $data=collect([
+            (object)[
+                'title' => 'じゃ、WEB開発が出来る？',
+                'body' => '経験としては、バックエンドです。デザインのセンスはありませんので、フロントエンドのデザインが出来ません。ｗ　フロントエンドのプログラミングもあまり経験はありませんが、必要な知識がわかります。やればやるほど腕もあげられると思います。<span class="font-weight-bold text-primary">ワイアフレーム</span>があればより効率的に開発が出来ます。',
+                'img' => "img/dekiru.png"
+            ],
+            (object)[
+                'title' => '「ワイアフレーム」って何？',
+                'body' => 'サーバーサイド（Webサーバー側）やデータベースのシステムなど、ユーザーの目に見えない部分のことです。ユーザーが入力した内容などのデータ処理やデータベースへの保存、検索結果の出力といったことを行います。',
+                'img' => "img/wireframe.png"
+            ]
+            ]);
+
+            ?>
+            @include('layout',['data'])
         </div>
-        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">
+
+
+        </div>
         <div class="swiper-slide">Slide 5</div>
         <div class="swiper-slide">Slide 6</div>
         <div class="swiper-slide">Slide 7</div>
         <div class="swiper-slide">Slide 8</div>
         <div class="swiper-slide">Slide 9</div>
-        <div class="swiper-slide">Slide 10</div>
+        <div class="swiper-slide">
+            @include('sample_tempo')
+        </div>
     </div>
 <!-- Add Arrows -->
     <div class="swiper-button-next swiper-button-white"></div>
