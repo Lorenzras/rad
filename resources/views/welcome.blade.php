@@ -361,7 +361,7 @@
             (object)[
                 'title' => 'じゃ、WEB開発が出来る？',
                 'body' => '経験としては、バックエンドです。デザインのセンスはありませんので、フロントエンドのデザインが出来ません。ｗ　フロントエンドのプログラミングもあまり経験はありませんが、必要な知識がわかります。やればやるほど腕もあげられると思います。そして<span class="font-weight-bold text-primary">ワイアフレーム</span>があればより効率的に開発が出来ます。',
-                'img' => "img/dekiru.png"
+                'img' => "img/Inkeddekiru_LI.jpg"
             ],
             (object)[
                 'title' => '「ワイアーフレーム」って何？',
