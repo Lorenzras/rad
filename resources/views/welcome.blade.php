@@ -203,10 +203,11 @@
     }
 
     @media screen and (max-width: 600px) {
-        .gallery-thumbs .swiper-slide-thumb-active .button {
-            font-size: 14px;
+        .gallery-thumbs .swiper-slide-thumb-active .button,  .button:hover {
+            font-size: 12px;
 
         }
+
         .h6 {
             font-size: 12px;
         }
@@ -300,7 +301,7 @@
 
 {{-- bottom Nav --}}
 <div class="containter">
-    <nav class="navbar fixed-bottom navbar-light bg-light pb-5">
+    <nav class="navbar fixed-bottom navbar-light bg-light">
 
         <a class="nav-item nav-link active p-0 m-0 text-center" href="#">
             <i class="fas fa-lg fa-home"></i>
@@ -342,7 +343,7 @@
     <script>
         var galleryThumbs = new Swiper('.gallery-thumbs', {
             spaceBetween: 10,
-            slidesPerView: 4,
+            slidesPerView: 3,
             loop: true,
             freeMode: true,
             loopedSlides: 5, //looped slides should be the same

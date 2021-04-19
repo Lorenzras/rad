@@ -1,9 +1,9 @@
 <div class="swiper-container swiper-container-n">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div class="container mt-5 mb-5">
+        <div class="container-fluid mt-5 p-0">
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-center ">
                 <div class="card mb-2 col-10 ">
                     <div class="card-body m-0 pl-0 pt-1 pb-0">
                         <div class="row d-flex align-items-center">
