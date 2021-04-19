@@ -28,7 +28,7 @@
     body {
       background:#fdf0f5 ;
       font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
-      font-size: 14px;
+      font-size: 1rem;
       color: #000;
       margin: 0;
       padding: 0;
@@ -43,7 +43,7 @@
     .swiper-slide {
         text-align: center;
         height: auto;
-        font-size: 14px;
+        font-size: 0.8rem;
         /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
@@ -90,7 +90,7 @@
     }
 
     .gallery-thumbs .swiper-slide-thumb-active .button {
-      font-size: 16px;
+      font-size: 1.2rem;
       font-weight: 900;
       color: #00a7e9;
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -119,7 +119,7 @@
 
     .button:hover {
         font-weight: bolder;
-        font-size: 16px;
+        font-size: 1.2rem;
         box-shadow: 0px 5px 10px #00a7e9;
         color: #00a7e9;
         transform: translateY(-3px);
@@ -200,6 +200,23 @@
         filter: alpha(opacity=0);
         /* modern browsers */
         opacity: 0;
+    }
+
+    @media screen and (max-width: 600px) {
+        .gallery-thumbs .swiper-slide-thumb-active .button {
+            font-size: 14px;
+
+        }
+        .h6 {
+            font-size: 12px;
+        }
+
+        div.col.h6 {
+            margin: 0;
+            padding: 0;
+        }
+
+
     }
 
   </style>
@@ -285,34 +302,34 @@
 <div class="containter">
     <nav class="navbar fixed-bottom navbar-light bg-light pb-5">
 
-        <a class="nav-item nav-link active p-0 text-center" href="#">
+        <a class="nav-item nav-link active p-0 m-0 text-center" href="#">
             <i class="fas fa-lg fa-home"></i>
-            <div class="col ">
+            <div class="col h6">
                 ホーム
             </div>
             <span class="sr-only">(current)</span>
         </a>
         <a class="nav-item nav-link text-center p-0" href="#">
             <i class="far fa-lg fa-list-alt "></i>
-            <div class="col">
+            <div class="col h6 ">
                 なんとか表
             </div>
         </a>
         <a class="nav-item nav-link p-0 text-center" href="#">
             <i class="fas fa-lg fa-search"></i>
-            <div class="col">
+            <div class="col h6">
                 さがす
             </div>
         </a>
         <a class="nav-item nav-link p-0 text-center" href="#">
             <i class="far fa-lg fa-star"></i>
-            <div class="col">
+            <div class="col h6">
                 マイリスト
             </div>
         </a>
         <a class="nav-item nav-link p-0 text-center" href="#">
             <i class="far fa-lg fa-user-circle"></i>
-            <div class="col">
+            <div class="col h6">
                 マイページ
             </div>
         </a>

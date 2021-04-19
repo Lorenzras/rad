@@ -4,7 +4,7 @@
         <div class="container mt-5 mb-5">
 
             <div class="row justify-content-center">
-                <div class="card mb-3 col-10 ">
+                <div class="card mb-2 col-10 ">
                     <div class="card-body m-0 pl-0 pt-1 pb-0">
                         <div class="row d-flex align-items-center">
                             <div class="col-3 h-100 pr-3">
@@ -29,7 +29,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12 pl-0 mb-1">
-                                        <span class="text-danger ">2021/5/10(火)22:00-24:20</span>
+                                        <span class="text-danger h6">2021/5/10(火)22:00-24:20</span>
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-3 col-10 ">
+                <div class="card mb-2 col-10 ">
                     <div class="card-body m-0 pl-0 pt-1 pb-0">
                         <div class="row d-flex align-items-center">
                             <div class="col-3 h-100 pr-3">
@@ -65,7 +65,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12 pl-0 mb-1">
-                                        <span class="text-danger ">2021/5/10(火)22:00-24:20</span>
+                                        <span class="text-danger h6">2021/5/10(火)22:00-24:20</span>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-3 col-10 ">
+                <div class="card mb-2 col-10 ">
                     <div class="card-body m-0 pl-0 pt-1 pb-0">
                         <div class="row d-flex align-items-center">
                             <div class="col-3 h-100 pr-3">
@@ -101,7 +101,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12 pl-0 mb-1">
-                                        <span class="text-danger ">2021/5/10(火)22:00-24:20</span>
+                                        <span class="text-danger h6">2021/5/10(火)22:00-24:20</span>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-3 col-10 ">
+                <div class="card mb-2 col-10 ">
                     <div class="card-body m-0 pl-0 pt-1 pb-0">
                         <div class="row d-flex align-items-center">
                             <div class="col-3 h-100 pr-3">
@@ -137,7 +137,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12 pl-0 mb-1">
-                                        <span class="text-danger ">2021/5/10(火)22:00-24:20</span>
+                                        <span class="text-danger h6">2021/5/10(火)22:00-24:20</span>
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +148,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-3 col-10 ">
+                <div class="card mb-2 col-10 ">
                     <div class="card-body m-0 pl-0 pt-1 pb-0">
                         <div class="row d-flex align-items-center">
                             <div class="col-3 h-100 pr-3">
@@ -173,7 +173,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12 pl-0 mb-1">
-                                        <span class="text-danger ">2021/5/10(火)22:00-24:20</span>
+                                        <span class="text-danger h6">2021/5/10(火)22:00-24:20</span>
                                     </div>
                                 </div>
                             </div>
@@ -184,7 +184,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-3 col-10 ">
+                <div class="card mb-2 col-10 ">
                     <div class="card-body m-0 pl-0 pt-1 pb-0">
                         <div class="row d-flex align-items-center">
                             <div class="col-3 h-100 pr-3">
@@ -209,7 +209,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12 pl-0 mb-1">
-                                        <span class="text-danger ">2021/5/10(火)22:00-24:20</span>
+                                        <span class="text-danger h6">2021/5/10(火)22:00-24:20</span>
                                     </div>
                                 </div>
                             </div>
@@ -220,7 +220,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-3 col-10 ">
+                <div class="card mb-2 col-10 ">
                     <div class="card-body m-0 pl-0 pt-1 pb-0">
                         <div class="row d-flex align-items-center">
                             <div class="col-3 h-100 pr-3">
@@ -245,7 +245,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12 pl-0 mb-1">
-                                        <span class="text-danger ">2021/5/10(火)22:00-24:20</span>
+                                        <span class="text-danger h6">2021/5/10(火)22:00-24:20</span>
                                     </div>
                                 </div>
                             </div>
@@ -256,7 +256,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-3 col-10 ">
+                <div class="card mb-2 col-10 ">
                     <div class="card-body m-0 pl-0 pt-1 pb-0">
                         <div class="row d-flex align-items-center">
                             <div class="col-3 h-100 pr-3">
@@ -281,7 +281,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12 pl-0 mb-1">
-                                        <span class="text-danger ">2021/5/10(火)22:00-24:20</span>
+                                        <span class="text-danger h6">2021/5/10(火)22:00-24:20</span>
                                     </div>
                                 </div>
                             </div>
@@ -292,7 +292,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-3 col-10 ">
+                <div class="card mb-2 col-10 ">
                     <div class="card-body m-0 pl-0 pt-1 pb-0">
                         <div class="row d-flex align-items-center">
                             <div class="col-3 h-100 pr-3">
@@ -317,7 +317,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12 pl-0 mb-1">
-                                        <span class="text-danger ">2021/5/10(火)22:00-24:20</span>
+                                        <span class="text-danger h6">2021/5/10(火)22:00-24:20</span>
                                     </div>
                                 </div>
                             </div>
@@ -328,7 +328,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-3 col-10 ">
+                <div class="card mb-2 col-10 ">
                     <div class="card-body m-0 pl-0 pt-1 pb-0">
                         <div class="row d-flex align-items-center">
                             <div class="col-3 h-100 pr-3">
@@ -353,7 +353,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12 pl-0 mb-1">
-                                        <span class="text-danger ">2021/5/10(火)22:00-24:20</span>
+                                        <span class="text-danger h6">2021/5/10(火)22:00-24:20</span>
                                     </div>
                                 </div>
                             </div>
