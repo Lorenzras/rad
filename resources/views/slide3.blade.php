@@ -10,11 +10,11 @@
                         <p class="mb-0">WebサイトやWebアプリケーションの開発は、仕事の内容によって「フロントエンド」と「バックエンド」に分類されます。
                             フロントエンドはユーザーの目に触れる部分、バックエンドはサーバ側の開発や運用を担当しています。
                         </p>
+                        <footer class="blockquote-footer">Udemy <cite title="Source Title">フロントエンドとバックエンドの違いとは</cite></footer>
                     </blockquote>
 
-                    <br><img src="{{ asset('img/frontend.png') }}" alt="">
+                        <br><img src="{{ asset('img/frontend.png') }}" alt="">
                     </div>
-
                 </div>
 
             </div>

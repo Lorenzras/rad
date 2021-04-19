@@ -283,7 +283,9 @@
         <div class="swiper-slide ">
             @include('slide2')
         </div>
-        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">
+            @include('slide3')
+        </div>
         <div class="swiper-slide">Slide 4</div>
         <div class="swiper-slide">Slide 5</div>
         <div class="swiper-slide">Slide 6</div>
@@ -348,7 +350,7 @@
     <script>
         var galleryThumbs = new Swiper('.gallery-thumbs', {
             spaceBetween: 10,
-            slidesPerView: 3,
+            slidesPerView: 4,
             loop: true,
             freeMode: true,
             loopedSlides: 5, //looped slides should be the same
