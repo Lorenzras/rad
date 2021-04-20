@@ -230,6 +230,9 @@
             padding: 0;
         }
 
+        .text-body {
+            font-size: 16px;
+        }
 
     }
 

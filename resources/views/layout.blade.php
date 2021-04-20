@@ -13,7 +13,7 @@
                             {{ $d->title }}
 
                         </div>
-                        <div class="mt-2 mb-0 text-secondary">
+                        <div class="mt-2 mb-0 text-secondary text-body">
                             {!! $d->body !!}
                         </div>
 
