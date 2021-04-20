@@ -221,7 +221,7 @@
         }
 
         div.col.h6 {
-            font-size: 10px;
+            font-size: 16px;
             margin: 0;
             padding: 0;
         }
@@ -370,14 +370,28 @@
             @include('layout',['data'])
         </div>
         <div class="swiper-slide">
+        <?php
+                $data=collect([
+            (object)[
+                'title' => 'アプリ開発は出来る？',
+                'body' => 'AndroidアプリとiPhoneアプリの開発環境は違います。私はアンドロイドアプリしか作ったことありません。（iPhoneアプリはMACパソコンがないと開発出来ないのでｗ）。もしこのプロジェクトが進むことになったら、全端末に対応出来るGoogleのFlutterというフレームワークを使います。それでも、アプリのテスト用のMACパソコンが必要です。',
+                'img' => "img/mobiledev.jpg"
+            ],
+            (object)[
+                'title' => 'いくらかかる？',
+                'body' => '主な費用はサバ―と会社の正式な開発者アカウントです。モバイルで一番人気なのはFirebaseで, 最初の段階は無料です。そして、アップル開発アカウントは年に¥11,800ぐらいです。アンドロイドは2,800円ぐらいの一回の登録費だけでです。',
+                'img' => "img/plan.gif"
+            ]
+            ]);
 
-
+            ?>
+            @include('layout',['data'])
         </div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
+        <div class="swiper-slide">作成中．。。可能性は無限。。。</div>
+        <div class="swiper-slide">作成中．。。可能性は無限。。。</div>
+        <div class="swiper-slide">作成中．。。可能性は無限。。。</div>
+        <div class="swiper-slide">作成中．。。可能性は無限。。。</div>
+        <div class="swiper-slide">作成中．。。可能性は無限。。。</div>
         <div class="swiper-slide">
             @include('sample_tempo')
         </div>
