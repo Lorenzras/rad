@@ -221,7 +221,7 @@
         }
 
         div.col.h6 {
-            font-size: 16px;
+            font-size: 10px;
             margin: 0;
             padding: 0;
         }
