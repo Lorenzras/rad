@@ -252,7 +252,7 @@
                 <div class="row mini-button ">
                     <div class="col-3 mini-sub mt-1 text-center"><i class="fas fa-map-marker-alt"></i></div>
 
-                    <div class="col-5 mini-area px-0 mt-1">
+                    <div class="col-6 mini-area px-0 mt-1">
 
                         <div class="col-12 px-0">
                             エリアフリー
