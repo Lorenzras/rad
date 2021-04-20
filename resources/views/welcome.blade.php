@@ -35,7 +35,7 @@
     }
 
     .swiper-container {
-        height: 80%;
+        height: 100%;
         width: 100%;
     }
 
@@ -98,7 +98,7 @@
 
     .swiper-container-n {
         padding-top: 5%;
-        height: 80%;
+        height: 100%;
         width: 100%;
     }
 
@@ -179,26 +179,7 @@
         font-size: 14px;
     }
 
-    .center-cropped {
-        width: 100px;
-        height: 100px;
-        background-position: center center;
-        background-repeat: no-repeat;
-        overflow: hidden;
-    }
-
-    .center-cropped img {
-        min-height: 100%;
-        min-width: 100%;
-        /* IE 8 */
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-        /* IE 5-7 */
-        filter: alpha(opacity=0);
-        /* modern browsers */
-        opacity: 0;
-    }
-
-    .desc {
+     .desc {
         line-height: 1.14286;
         font-weight: 600;
         letter-spacing: .009em;

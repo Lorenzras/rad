@@ -2,7 +2,7 @@
 <div class="swiper-container swiper-container-n">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div class="container mt-5 mb-5">
+        <div class="container pt-5 mt-5 pb-3 mb-5">
 
             <div class="row justify-content-center">
                 @foreach($data as $d)
