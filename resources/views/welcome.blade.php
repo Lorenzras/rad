@@ -132,11 +132,8 @@
     }
 
     .navbutton  {
-        width: 140px;
+        width: 110px;
         height: 45px;
-        text-transform: uppercase;
-        letter-spacing: 2.5px;
-        font-weight: 500;
         background-color: #fff;
         border: none;
         border-radius: 5px;
@@ -145,7 +142,6 @@
         cursor: pointer;
         outline: none;
         font-size: 8px;
-        font-weight: 900;
         margin : 0 !important;
         padding: 0;
         color: #00a7e9;
@@ -248,11 +244,11 @@
 <nav class="navbar fixed-top px-0">
     <div class="container-fluid d-inline-block">
         <div class="row pl-3 ">
-            <button class="navbutton " >
+            <button class="navbutton" >
                 <div class="row mini-button ">
                     <div class="col-3 mini-sub mt-1 text-center"><i class="fas fa-map-marker-alt"></i></div>
 
-                    <div class="col-6 mini-area px-0 mt-1">
+                    <div class="col-6 mini-area ml-1 px-0 mt-1">
 
                         <div class="col-12 px-0">
                             エリアフリー
@@ -262,7 +258,7 @@
                         </div>
                     </div>
 
-                    <div class="col align-self-end pl-0 mr-1">
+                    <div class="col align-self-center pl-0 mr-1">
                         <i class="fas fa-2x fa-angle-down"></i>
                     </div>
                 </div>
