@@ -1,0 +1,58 @@
+
+
+body {
+    font-family: "游ゴシック Medium","Yu Gothic Medium","游ゴシック体",YuGothic,"游ゴシック","Yu Gothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Meiryo UI","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    background-color: #f1f1f1;
+}
+
+/* texts */
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    white-space: normal;
+    display: block;
+}
+
+.title-date {
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.title-h1 {
+     color: #333;
+    display: block;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 7px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.title-h2 {
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* cards */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card-header {
+    background-color: #FFF293;
+}
+
+/* buttons */
+.btn-kintone:hover {
+    background-color: #FFE000;
+}
