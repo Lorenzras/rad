@@ -422,7 +422,7 @@
         <a class="nav-item nav-link p-0 text-center" href="#">
             <i class="far fa-lg fa-user-circle"></i>
             <div class="col h6">
-                マイリスト
+                プロフィール
             </div>
         </a>
 
